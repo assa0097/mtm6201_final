@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Navbar --- */
+.navbar {
+    background-color: #606C38 !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.nav-link.active {
+    color: #bb7923 !important;
+}
+
+/* --- Hero Banner --- */
+.hero-banner {
+    position: relative;
+    background-image: url('../images/hero-banner.jpg'); /* or whatever your image path is */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+}
+
+
+.hero-overlay {
+    position: absolute;
+    bottom: 20px; /* space from bottom */
+    left: 20px;   /* space from left */
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 500px;
+}
+
+.hero-banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-banner p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.hero-btn {
+    background-color: #dda15e;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+/* --- Section Titles --- */
+h2.section-title {
+    font-family: 'Pacifico', cursive;
+    color: #bb7923;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* --- Paragraphs --- */
+section p {
+    font-size: 1rem;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto 1rem auto;
+}
+
+/* --- Who We Are Section --- */
+section.bg-white .container {
+    flex-wrap: wrap;
+}
+
+section.bg-white .col-md-6 {
+    padding: 1rem;
+}
+
+/* --- Buttons --- */
+.btn-success {
+    background-color: #7b9c4b;
+    border-color: #7b9c4b;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #68893e;
+    border-color: #68893e;
+}
+
+.btn-outline-success {
+    border-color: #7b9c4b;
+    color: #7b9c4b;
+}
+
+.btn-outline-success:hover {
+    background-color: #7b9c4b;
+    color: white;
+}
+
+/* --- Featured Images --- */
+.img-featured {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* --- Generic Images --- */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border-radius: 100%;
+    max-width: 250px;
+}
+
+/* --- Section Spacing --- */
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #606C38 !important;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.footer-brand {
+    background-color: #606C38;
+    color: white;
+}
