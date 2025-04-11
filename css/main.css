@@ -37,7 +37,7 @@ body {
 /* --- Hero Banner --- */
 .hero-banner {
     position: relative;
-    background-image: url('../images/hero-banner.jpg'); /* or whatever your image path is */
+    background-image: url('../images/hero-banner.jpg'); 
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -47,8 +47,8 @@ body {
 
 .hero-overlay {
     position: absolute;
-    bottom: 20px; /* space from bottom */
-    left: 20px;   /* space from left */
+    bottom: 20px; 
+    left: 20px;  
     background: rgba(0, 0, 0, 0.5);
     padding: 30px;
     border-radius: 10px;
@@ -107,23 +107,23 @@ section.bg-white .col-md-6 {
 
 /* --- Buttons --- */
 .btn-success {
-    background-color: #7b9c4b;
-    border-color: #7b9c4b;
+    background-color: #606C38;
+    border-color: #606C38;
     color: #fff;
 }
 
 .btn-success:hover {
-    background-color: #68893e;
-    border-color: #68893e;
+    background-color: #606C38;
+    border-color: #606C38;
 }
 
 .btn-outline-success {
-    border-color: #7b9c4b;
-    color: #7b9c4b;
+    border-color: #606C38;
+    color: #606C38;
 }
 
 .btn-outline-success:hover {
-    background-color: #7b9c4b;
+    background-color: #606C38;
     color: white;
 }
 
@@ -135,7 +135,7 @@ section.bg-white .col-md-6 {
     border-radius: 10px;
 }
 
-/* --- Generic Images --- */
+/* --- Images --- */
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -146,11 +146,79 @@ section.bg-white .col-md-6 {
     max-width: 250px;
 }
 
+.about-subheading {
+    font-family: 'Pacifico', cursive;
+    color: #c07a35;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .history-img {
+    max-width: 300px;
+    margin-top: 1rem;
+  }
+
 /* --- Section Spacing --- */
 section {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
+/* Mission full-width image */
+.img-fullwidth {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.section-title {
+    font-family: 'Caveat', cursive; 
+    font-size: 2rem;
+    color: #c07a35;
+    font-weight: bold;
+  }
+  
+  .contact-btn {
+    background-color: #d5a76c;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contact-btn:hover {
+    background-color: #a2612e;
+  }
+  
+  .custom-divider {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .map-container iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+  }
+  
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 1.6rem;
+    }
+  
+    .contact-btn {
+      padding: 8px 20px;
+      font-size: 1rem;
+    }
+  
+    .map-container iframe {
+      height: 300px;
+    }
+  }
 
 /* --- Footer --- */
 footer {
